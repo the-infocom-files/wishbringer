@@ -786,7 +786,7 @@
 		      (T
 		       <RFALSE>)>)>>
 
-<ROUTINE COAT-F ("AUX" OBJ NXT)
+<ROUTINE COAT-F ()
 	 <THIS-IS-IT ,COAT>
 	 <COND (<VERB? EXAMINE>
 		<SAY-THE ,COAT>

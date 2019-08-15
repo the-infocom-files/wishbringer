@@ -1389,7 +1389,7 @@ D ,MAGICK-SHOPPE ". She pauses before closing the door.|
 
 <GLOBAL SKEWED? <>>
 
-<ROUTINE SKEW ("AUX" OBJ NXT)
+<ROUTINE SKEW ("AUX" OBJ)
 	 	 
        ; "Clear TOUCHBITs of all rooms."
 
