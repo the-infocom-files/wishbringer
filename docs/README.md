@@ -1,10 +1,10 @@
-*This page is currently under construction. Last updated July 8, 2019 by Alex Proudfoot.*
+# Wishbringer: The Magick Stone of Dreams
 
-----
+## The Game
 
-Wishbringer was Infocom's 16th IF game and was first released in 1985.
+Wishbringer is a 1985 interactive fiction game written by Brian Moriarty and published by Infocom.
 
-Further information on Wishbringer:
+The following sources provide further information on Wishbringer:
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Wishbringer)
 * [The Digital Antiquarian](https://www.filfre.net/2014/04/wishbringer/)
@@ -12,17 +12,29 @@ Further information on Wishbringer:
 * [The Infocom Gallery](http://infocom.elsewhere.org/gallery/wishbringer/)
 * [IFWiki](http://www.ifwiki.org/index.php/Wishbringer)
 
+## Resources
 
-The following source material is available for importation. Release 69 was selected from the Zarf Sources.
+* [Wishbringer on The Obsessively Complete Infocom Catalog](https://eblong.com/infocom/#wishbringer)
+* [Wishbringer on Historical Source (GitHub)](https://github.com/historicalsource/wishbringer)
+* [Infocom Fact Sheet](http://pdd.if-legends.org/infocom/fact-sheet.txt)
 
-## Historical Releases
+## Version History
 
-These contain the available source material.
+Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Wishbringer listed in the Infocom Fact Sheet. It also holds the source files for version 69/850920.
 
-| Release | Serial | Story File       | Zarf Sources | Jason Scott Sources  |
-| -------:|:------:|:----------------:|:------------:|:--------------------:|
-|      69 | 850920 | [r69-s850920-z3] |    [r69-zip] |     [final-revision] |
+| Release | Serial | Story File                   | Zarf Sources          | Historical Sources |
+| -------:|:------:|:----------------------------:|:---------------------:|:------------------:|
+|      68 | 850501 | [wishbringer-r68-s850501.z3] |                     - |                  - |
+|      69 | 850920 | [wishbringer-r69-s850920.z3] | [wishbringer-r69.zip] |   [final revision] |
 
-[r69-s850920-z3]: https://eblong.com/infocom/gamefiles/wishbringer-r69-s850920.z3
-[r69-zip]: https://eblong.com/infocom/sources/wishbringer-r69.zip
-[final-revision]: https://github.com/historicalsource/wishbringer/tree/3e13b2806b4c21235d3a12d43558584c795a892d
+[wishbringer-r68-s850501.z3]: https://eblong.com/infocom/gamefiles/wishbringer-r68-s850501.z3
+
+[wishbringer-r69-s850920.z3]: https://eblong.com/infocom/gamefiles/wishbringer-r69-s850920.z3
+[wishbringer-r69.zip]: https://eblong.com/infocom/sources/wishbringer-r69.zip
+[final revision]: https://github.com/historicalsource/wishbringer/tree/3e13b2806b4c21235d3a12d43558584c795a892d
+
+## Future Development
+
+Version 69/850920 has been selected as the starting point for future development.
+
+Compilation issues are recorded [here](https://github.com/the-infocom-files/wishbringer/issues/2).
