@@ -20,12 +20,10 @@ The following sources provide further information on Wishbringer:
 
 ## Version History
 
-Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Wishbringer listed in the Infocom Fact Sheet. It also holds the source files for version 69/850920.
-
-| Release | Serial | Story File                   | Zarf Sources          | Historical Sources |
-| -------:|:------:|:----------------------------:|:---------------------:|:------------------:|
-|      68 | 850501 | [wishbringer-r68-s850501.z3] |                     - |                  - |
-|      69 | 850920 | [wishbringer-r69-s850920.z3] | [wishbringer-r69.zip] |   [final revision] |
+| Release | Serial | Type | Story File                   | Obsessive Sources     | Historical Sources |
+| -------:|:------:|:----:|:----------------------------:|:---------------------:|:------------------:|
+|      68 | 850501 |  PUB | [wishbringer-r68-s850501.z3] |                     - |                  - |
+|      69 | 850920 |  PUB | [wishbringer-r69-s850920.z3] | [wishbringer-r69.zip] |   [final revision] |
 
 [wishbringer-r68-s850501.z3]: https://eblong.com/infocom/gamefiles/wishbringer-r68-s850501.z3
 
