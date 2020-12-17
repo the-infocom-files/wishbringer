@@ -75,7 +75,7 @@
 <ROUTINE SAY-SURE ()
 	 <TELL "Are you sure you want to ">>
 
-<ROUTINE V-QUIT ("OPTIONAL" (ASK? T) "AUX" SCOR)
+<ROUTINE V-QUIT ("OPTIONAL" (ASK? T))
 	 <V-SCORE>
 	 <COND (.ASK?
 		<SAY-SURE>
@@ -658,7 +658,7 @@ Release ">
 <ROUTINE V-EAT ()
 	 <NOT-LIKELY ,PRSO "would agree with you">>
 
-<ROUTINE V-ENTER ("AUX" VEHICLE)
+<ROUTINE V-ENTER ()
 	 <COND (<EQUAL? ,PRSO ,ROOMS>
 		<DO-WALK ,P?IN>)
 	       (<FSET? ,PRSO ,WEARBIT>
@@ -1260,7 +1260,7 @@ are available using the order form that came">
 <ROUTINE V-MUNG ()
 	 <HACK-HACK "Trying to destroy">>
 
-<ROUTINE V-OPEN ("AUX" F STR)
+<ROUTINE V-OPEN ()
 	 <COND (<FSET? ,PRSO ,ACTORBIT>
 		<NOT-A "surgeon">)
 	       
@@ -1714,7 +1714,7 @@ are available using the order form that came">
 	       (T
 		<TELL <PICK-ONE ,YUKS> CR>)>>
 
-<ROUTINE V-SHAKE ("AUX" X)
+<ROUTINE V-SHAKE ()
 	 <COND (<FSET? ,PRSO ,ACTORBIT>
 		<PERFORM ,V?ALARM ,PRSO>
 		<RTRUE>)
@@ -2239,7 +2239,7 @@ are available using the order form that came">
 	       (T
 		<RFALSE>)>>
 
-<ROUTINE ITAKE ("OPTIONAL" (VB T) "AUX" CNT OBJ)
+<ROUTINE ITAKE ("OPTIONAL" (VB T))
 	 <THIS-IS-IT ,PRSO>
 	 <COND (<NOT <FSET? ,PRSO ,TAKEBIT>>
 		<COND (.VB
